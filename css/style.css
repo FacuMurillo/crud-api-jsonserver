@@ -1,0 +1,200 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* TITULO */
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1e293b;
+    font-size: 40px;
+}
+
+/* FORMULARIO */
+form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* INPUTS */
+form input{
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input:focus{
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37,99,235,0.3);
+}
+
+/* BOTON */
+form button{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover{
+    background: #1d4ed8;
+}
+
+/* CONTENEDOR DE ALUMNOS */
+#listaAlumnos{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+/* NOMBRE */
+.card h3{
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+/* TEXTO */
+.card p{
+    margin-bottom: 8px;
+    color: #475569;
+}
+
+/* BOTONES */
+.botones{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+/* ELIMINAR */
+.btn-eliminar{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #ef4444;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-eliminar:hover{
+    background: #dc2626;
+}
+
+/* EDITAR */
+.btn-editar{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #f59e0b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-editar:hover{
+    background: #d97706;
+}
+
+/* BOTON EDITAR */
+.btnEditar{
+    background: #f59e0b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.btnEditar:hover{
+    background: #d97706;
+    transform: scale(1.05);
+}
+
+/* BOTON ELIMINAR */
+.btnEliminar{
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btnEliminar:hover{
+    background: #dc2626;
+    transform: scale(1.05);
+}
+
+footer{
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+
+    body{
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+}

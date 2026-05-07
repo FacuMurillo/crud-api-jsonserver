@@ -1,0 +1,50 @@
+{
+  "alumnos": [
+    {
+      "id": "1",
+      "nombre": "Ana",
+      "apellido": "Gomez",
+      "edad": 20,
+      "email": "ana@gmail.com",
+      "comision": "A",
+      "activo": true
+    },
+    {
+      "id": "2",
+      "nombre": "Maria",
+      "apellido": "Lopez",
+      "edad": 19,
+      "email": "maria@gmail.com",
+      "comision": "C",
+      "activo": true
+    },
+    {
+      "id": "3",
+      "nombre": "Lucas",
+      "apellido": "Hernandez",
+      "edad": 44,
+      "email": "lucas@gmail.com",
+      "comision": "5",
+      "activo": true
+    },
+    {
+      "id": "ccyNpFLnDRo",
+      "nombre": "Facundo",
+      "apellido": "Murillo",
+      "edad": 24,
+      "email": "facumurillo@gmail.com",
+      "comision": "1",
+      "activo": true
+    },
+    {
+      "id": "iKBQtdPcfag",
+      "nombre": "Emilio",
+      "apellido": "Peralta",
+      "edad": 62,
+      "email": "emilio@gmail.com",
+      "comision": "1",
+      "activo": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
